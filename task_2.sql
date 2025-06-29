@@ -1,3 +1,9 @@
+-- Authors table
+CREATE TABLE Authors (
+    author_id INT AUTO_INCREMENT,
+    author_name VARCHAR(215),
+    PRIMARY KEY (author_id)
+);
 -- Books table
 CREATE TABLE Books (
     book_id INT AUTO_INCREMENT,
