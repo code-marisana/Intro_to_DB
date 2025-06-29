@@ -4,7 +4,7 @@ INSERT INTO customer (
     email,
     address    
 ) VALUES (
-    (2,
+    ("2",
     "Blessing Malik",
     "bmalik@sandtech.com",
     "124 Happiness Ave."),
