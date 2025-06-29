@@ -7,7 +7,7 @@ try:
         user = "code-marisana",
         passwd = "mypassword"
         )
-except Exception:
+except mysql.connector.Error:
     print("ERROR: blah blah blah")
 else:
     print("Database 'alx_book_store' created successfully!")
