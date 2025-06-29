@@ -1,4 +1,4 @@
-INSERT INTO alx_book_store.Customers (
+INSERT INTO alx_book_store.customer (
     customer_id,
     customer_name,
     email,
